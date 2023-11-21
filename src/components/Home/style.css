@@ -1,0 +1,9 @@
+ 
+.w-100{
+    animation: float 2s ease-in;
+} 
+
+.playbutton-image{
+    width: 25px; 
+    height: 25px;
+}
