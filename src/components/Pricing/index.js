@@ -159,7 +159,7 @@ export default function Pricing(){
     const pricingSection4 = ()=>{
         return(
             <Container fluid>
-                <Row className='mb-5 p-[2em]'>
+                <Row className='mb-5 p-[3em]'>
                     <div className='text-center mb-[3em]'>
                         <h2>Frequently Asked Questions</h2> 
                     </div> 
@@ -167,11 +167,11 @@ export default function Pricing(){
                         <div className='flex flex-col justify-between sm:flex-row'>
                             <div className='mb-[1.5em] sm:mr-[1em] w-2/4'>
                                 <h5 className='text-[#222222]'>How does the 14 day trial work?</h5> 
-                                <p className='#666666'>After you signup you get access to all the features of formX for 14 days. We want to make sure that you can get formX working to your satisfaction before we ask you for your credit card.</p>
+                                <p className='text-[#666666]'>After you signup you get access to all the features of formX for 14 days. We want to make sure that you can get formX working to your satisfaction before we ask you for your credit card.</p>
                             </div>
                             <div className='mb-[1.5em] sm:ml-[1em]  w-2/4'>
                                 <h5 className='text-[#222222]'>Do we pay extra for more people?</h5> 
-                                <p className='#666666'>No. Unlike most group software, we don't charge you based on how many users you add. 5 users or 50, the price is the same.</p>
+                                <p className='text-[#666666]'>No. Unlike most group software, we don't charge you based on how many users you add. 5 users or 50, the price is the same.</p>
                             </div>
                         </div>
                         
@@ -180,11 +180,11 @@ export default function Pricing(){
                         <div className='flex flex-col justify-between sm:flex-row'>
                             <div className='mb-[1.5em] sm:mr-[1em] w-2/4'>
                                 <h5 className='text-[#222222]'>What if we need more than 14 days?</h5> 
-                                <p className='#666666'>We'll give you time. Just let us know at support@formx.stream and we'll happily extend your trial.</p>
+                                <p className='text-[#666666]'>We'll give you time. Just let us know at support@formx.stream and we'll happily extend your trial.</p>
                             </div>
                             <div className='mb-[1.5em] sm:ml-[1em] w-2/4'>
                                 <h5 className='text-[#222222]'>Will we be charged when our trial is up?</h5> 
-                                <p className='#666666'>No. We don't ask for your credit card up front, so you'll only be charged when you decide. If you want to continue after your trial, we'll ask for payment details. If not — cancel with a click, no questions asked.</p>
+                                <p className='text-[#666666]'>No. We don't ask for your credit card up front, so you'll only be charged when you decide. If you want to continue after your trial, we'll ask for payment details. If not — cancel with a click, no questions asked.</p>
                                
                             </div>
                         </div>
@@ -194,7 +194,7 @@ export default function Pricing(){
                         <div className='flex flex-col justify-between sm:flex-row'>
                             <div className='mb-[1.5em] sm:mr-[1em] w-2/4'>
                                 <h5 className='text-[#222222]'>Do you have any contracts or cancellation fees?</h5> 
-                                <p className='#666666'>No. formX is a pay-as-you-go service. We do not have contracts or cancellation fees. You can cancel whenever you want. If you cancel, you’ll be billed for the current month, but you won’t be billed again. 
+                                <p className='text-[#666666]'>No. formX is a pay-as-you-go service. We do not have contracts or cancellation fees. You can cancel whenever you want. If you cancel, you’ll be billed for the current month, but you won’t be billed again. 
                                     <span ><a href="/refund" className='text-[#007bff] hover:text-[#067796] hover:underline hover:decoration-[#067796]'>
                                         Check our refund policy</a>
                                     </span>
@@ -202,14 +202,11 @@ export default function Pricing(){
                             </div>
                             <div className='mb-[1.5em] sm:ml-[1em] w-2/4'>
                                 <h5 className='text-[#222222]'>Can I upgrade or downgrade anytime?</h5> 
-                                <p className='#666666'>Yes. formX is a pay-as-you-go service and you can upgrade, downgrade or cancel at any time. Click on the My Account link to find options to change your plan.</p>
+                                <p className='text-[#666666]'>Yes. formX is a pay-as-you-go service and you can upgrade, downgrade or cancel at any time. Click on the My Account link to find options to change your plan.</p>
                             </div>
                         </div>
                         
                     </Col> 
-
-                   
-                    
                 </Row>
             </Container>
         )

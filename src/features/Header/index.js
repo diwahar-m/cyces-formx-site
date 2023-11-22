@@ -2,7 +2,9 @@ import {Container} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
 import {Navbar} from 'react-bootstrap';
 import {Button} from 'react-bootstrap'; 
-import './style.css';
+import './style.css'; 
+import { LiaBarsSolid } from "react-icons/lia";
+
 
 
 export default function Header(){
@@ -10,12 +12,13 @@ export default function Header(){
     return(
         <Navbar expand="lg" className="bg-[#042a2b] ">
             <Container>
-                <Navbar.Brand href="#home">
-                    <a href='/'>
+                <Navbar.Brand href="/">
+                    
                         <img src={process.env.PUBLIC_URL + '/assets/formx-white.png'} alt="logo" style={{width: '120px'}}/>
-                    </a>
+                    
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" id="navbar1"  />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" id="navbar1"   />
+                    
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Link href="/features" >Features</Nav.Link>

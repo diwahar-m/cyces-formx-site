@@ -24,8 +24,8 @@ export default function Footer(){
                         <a>Support</a> 
                         <a>GDPR</a> 
                         <a>Terms of service</a> 
-                        <a>Privacy Policy</a> 
-                        <a>Refund Policy</a>
+                        <a href="/privacy" className='no-underline'>Privacy Policy</a> 
+                        <a href="/refund" className='no-underline'>Refund Policy</a>
                     </div>
                 </Col>
 
