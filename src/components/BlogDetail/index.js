@@ -1,6 +1,5 @@
 import Header from '../../features/Header/index'; 
-import Footer from '../../features/Footer';
-import {Container,Row, Col} from 'react-bootstrap';  
+import Footer from '../../features/Footer'; 
 
 export default function BlogDetail(){
    
