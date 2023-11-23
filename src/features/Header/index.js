@@ -1,9 +1,7 @@
 import {Container} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
 import {Navbar} from 'react-bootstrap';
-import {Button} from 'react-bootstrap'; 
 import './style.css'; 
-import { LiaBarsSolid } from "react-icons/lia";
 
 
 
