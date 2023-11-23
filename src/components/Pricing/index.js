@@ -1,6 +1,6 @@
 import Header from '../../features/Header/index'; 
 import Footer from '../../features/Footer';
-import {Container,Row, Col, Button} from 'react-bootstrap';   
+import {Container,Row, Col} from 'react-bootstrap';   
 import { FaDollarSign } from "react-icons/fa6";
 
 export default function Pricing(){ 
