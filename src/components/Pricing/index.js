@@ -13,7 +13,7 @@ export default function Pricing(){
                         <div className='flex flex-col justify-center items-center text-center w-100  p-[2em]'>
                             <h1 className='text-[#faf6f5] mb-[1em] mt-[1.5em] text-5xl'>Pricing</h1> 
                             <h5 className='text-[#faf6f5] mb-[1em] font-bold'>
-                                <a href="" className="hover:no-underline font-bold">Start a free trial today, </a>
+                                <a href="/" className="hover:no-underline font-bold">Start a free trial today, </a>
                                 pick a plan after getting 100 form submissions (Free Forever).
                                 </h5> 
                             

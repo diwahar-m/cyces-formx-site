@@ -214,7 +214,7 @@ export default function Home(){
                         </div>
                     </Col> 
                     <div className='flex justify-center'>
-                        <a href="" className='text-center text-[#5eb1bf] hover:text-[#00000]'>View all features</a>
+                        <a href="/" className='text-center text-[#5eb1bf] hover:text-[#00000]'>View all features</a>
                     </div>
 
                 </Row>
@@ -267,7 +267,7 @@ export default function Home(){
                     <Col xs={12} sm={6} md={4}> 
                         <div className='h-[9em] transition-all duration-300 hover:shadow-2xl hover:ml-[2px] hover:mt-[2px] hover:mr-[-2px] hover:mb-[3em]   bg-[#042a2b] rounded-lg flex  justify-between items-center overflow-hidden mb-[3em]'>
                            <img src={process.env.PUBLIC_URL + '/assets/docs.png'} alt="logo" className='w-[4em] self-start ml-[-15px] mt-[-10px]' />
-                            <a href="" >
+                            <a href="/pricing" >
                                 <h3 className=' text-[#5eb1bf] mr-[1em]'>Pricing</h3>
                             </a>
                         </div>
@@ -275,7 +275,7 @@ export default function Home(){
                     <Col xs={12} sm={6} md={4}> 
                         <div className='h-[9em] transition-all duration-300 hover:shadow-2xl hover:ml-[2px] hover:mt-[2px]  hover:mr-[-2px] hover:mb-[3em]   bg-[#5eb1bf] rounded-lg flex  justify-between items-center overflow-hidden mb-[3em]'>
                            <img src={process.env.PUBLIC_URL + '/assets/map.png'} alt="logo" className='w-[4em] self-start ml-[-15px] mt-[-10px]' />
-                            <a href="" >
+                            <a href="/" >
                                 <h3 className=' text-[#fffff] mr-[1em]'>Guides</h3>
                             </a>
                         </div>
@@ -283,7 +283,7 @@ export default function Home(){
                     <Col xs={12} sm={6} md={4}> 
                         <div className='h-[9em] transition-all duration-300 hover:shadow-2xl hover:ml-[2px] hover:mt-[2px]  hover:mr-[-2px] hover:mb-[3em]   bg-[#f2f2f2] rounded-lg flex  justify-between items-center overflow-hidden mb-[3em]'>
                            <img src={process.env.PUBLIC_URL + '/assets/question.png'} alt="logo" className='w-[4em] self-start ml-[-15px] mt-[-10px]' />
-                            <a href="" >
+                            <a href="/" >
                                 <h3 className=' text-[#5eb1bf] mr-[1em]'>FAQs</h3>
                             </a>
                         </div>

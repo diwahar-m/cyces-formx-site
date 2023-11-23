@@ -91,7 +91,7 @@ export default function Agency(){
                     </Col>
                      
                     <div className='flex justify-center'>
-                        <a href="" className='text-center text-[#5eb1bf] hover:text-[#00000]'>View all features</a>
+                        <a href="/" className='text-center text-[#5eb1bf] hover:text-[#00000]'>View all features</a>
                     </div>
 
                 </Row>

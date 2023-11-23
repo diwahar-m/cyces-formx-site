@@ -253,7 +253,7 @@ export default function Features(){
                             </div>  
                             <div className=' text-left flex flex-col justify-center items-center'>
                                 <h4 className='font-semibold'>Agency</h4> 
-                                <p className='text-xl my-3'><a href='#' className='text-[#5eb1bf] hover:underline'>Are you an agency? </a>Get add-ons to improve your functionality and boost performance.</p> 
+                                <p className='text-xl my-3'><a href='/' className='text-[#5eb1bf] hover:underline'>Are you an agency? </a>Get add-ons to improve your functionality and boost performance.</p> 
                                 <ul className='list-disc text-lg'>
                                     <li>Assign roles and access privileges to team members and admins: give your team access to your dashboard via multiple account management, for improved productivity and progress.</li>
                                     <li>Use formX for your clients with our multi-client access feature: help your clients reach their business goals through effective collaboration and improved communication.</li>
@@ -298,7 +298,7 @@ export default function Features(){
                     <Col xs={12} sm={6} md={4}> 
                         <div className='h-[9em] transition-all duration-300 hover:shadow-2xl hover:ml-[2px] hover:mt-[2px] hover:mr-[-2px] hover:mb-[3em]   bg-[#042a2b] rounded-lg flex  justify-between items-center overflow-hidden mb-[3em]'>
                            <img src={process.env.PUBLIC_URL + '/assets/docs.png'} alt="logo" className='w-[4em] self-start ml-[-15px] mt-[-10px]' />
-                            <a href="" >
+                            <a href="/pricing" >
                                 <h3 className=' text-[#5eb1bf] mr-[1em]'>Pricing</h3>
                             </a>
                         </div>
@@ -306,7 +306,7 @@ export default function Features(){
                     <Col xs={12} sm={6} md={4}> 
                         <div className='h-[9em] transition-all duration-300 hover:shadow-2xl hover:ml-[2px] hover:mt-[2px]  hover:mr-[-2px] hover:mb-[3em]   bg-[#5eb1bf] rounded-lg flex  justify-between items-center overflow-hidden mb-[3em]'>
                            <img src={process.env.PUBLIC_URL + '/assets/map.png'} alt="logo" className='w-[4em] self-start ml-[-15px] mt-[-10px]' />
-                            <a href="" >
+                            <a href="/" >
                                 <h3 className=' text-[#fffff] mr-[1em]'>Guides</h3>
                             </a>
                         </div>
@@ -314,7 +314,7 @@ export default function Features(){
                     <Col xs={12} sm={6} md={4}> 
                         <div className='h-[9em] transition-all duration-300 hover:shadow-2xl hover:ml-[2px] hover:mt-[2px]  hover:mr-[-2px] hover:mb-[3em]   bg-[#f2f2f2] rounded-lg flex  justify-between items-center overflow-hidden mb-[3em]'>
                            <img src={process.env.PUBLIC_URL + '/assets/question.png'} alt="logo" className='w-[4em] self-start ml-[-15px] mt-[-10px]' />
-                            <a href="" >
+                            <a href="/" >
                                 <h3 className=' text-[#5eb1bf] mr-[1em]'>FAQs</h3>
                             </a>
                         </div>
@@ -334,7 +334,7 @@ export default function Features(){
                     <Col xs={12} sm={6} className='flex justify-center md:justify-end '> 
                         <div className='mb-4'>
                            
-                            <a href="" >
+                            <a href="/" >
                                 <img src={process.env.PUBLIC_URL + '/assets/App_Store_Badge_Eng.svg'} alt="logo" className='w-[17em]  sm:ml-auto' />
                             </a>
                         </div>
@@ -342,7 +342,7 @@ export default function Features(){
                     <Col xs={12} sm={6} className='flex justify-center md:justify-start'> 
                         <div className='mb-4'>
                            
-                            <a href="" >
+                            <a href="/" >
                             <img src={process.env.PUBLIC_URL + '/assets/google-play-badge.png'} alt="logo" className='w-[17em] md:w-[19em]' />
                             </a>
                         </div>
