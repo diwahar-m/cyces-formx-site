@@ -31,7 +31,7 @@ export default function Privacy() {
                                 
                                     <p className='text-[#555555]  mb-[1em] text-base' >Cyces Innovation Labs LLP ("us", "we", or "our") operates the http://formx.stream/ website (the "Service").</p>
                                     <p className='text-[#555555]  mb-[1em] text-base'>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Cyces Innovation Labs LLP is managed through 
-                                        <a className='text-[#5eb1bf]' target="_blank" href='https://www.freeprivacypolicy.com/free-privacy-policy-generator/'>Free Privacy Policy</a>
+                                        <a className='text-[#5eb1bf]' href='https://www.freeprivacypolicy.com/free-privacy-policy-generator/'>Free Privacy Policy</a>
                                     </p>                                   
                                     <p className='text-[#555555]  mb-[1em] text-base'>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from http://formx.stream/</p>                                   
                                 
@@ -145,7 +145,7 @@ export default function Privacy() {
                                     <li className='mb-[0.6em]'>Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.</li>
                                     <li className='mb-[0.6em]'>You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.</li>                                   
                                     <li className='mb-[0.6em]'>For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page:
-                                        <a target="_blank" href="https://policies.google.com/privacy?hl=en">https://policies.google.com/privacy?hl=en</a></li>                                   
+                                        <a href="https://policies.google.com/privacy?hl=en">https://policies.google.com/privacy?hl=en</a></li>                                   
                                 </ul> 
                             </div> 
 

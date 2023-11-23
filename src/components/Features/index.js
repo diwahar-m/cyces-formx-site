@@ -94,7 +94,7 @@ export default function Features(){
                 <Row>
                 <Col sm={12} className='text-center p-[4em]'>
                         <div>                           
-                            <a className='mt-2 text-[#042a2b]' target='_blank' href="https://www.youtube.com/watch?v=TEhmeJdezbk">
+                            <a className='mt-2 text-[#042a2b]'  href="https://www.youtube.com/watch?v=TEhmeJdezbk">
                                 <strong className='flex justify-center '>
                                     <img src={process.env.PUBLIC_URL + '/assets/video-play-button.png'} className='playbutton-image mt-1'  alt="video-play-button"/>
                                     <p className='text-2xl ml-2 hover:underline decoration-[#007bff]'>Watch a quick 1 min product tour
