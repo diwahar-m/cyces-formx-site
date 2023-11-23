@@ -61,25 +61,6 @@ export default function Blog(){
         )
     }  
 
-    const homeSection5 = ()=>{
-        return(
-            <Container fluid>
-                <Row className='p-[2em] flex  '> 
-                   
-                    <Col xs={12} sm={6} md={4} lg={3} > 
-                        <div className='min-h-[15em]  hover:shadow-lg bg-[#f2f2f2] rounded-lg flex flex-col justify-center align-center p-2 m-3
-                         transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '>
-                            <img src={process.env.PUBLIC_URL + '/assets/shield.svg'} alt="logo" className='w-[3.5em]  mx-auto'/>
-                            <h4 className='text-center'>Flexibility & Security</h4> 
-                            <p className='text-center'>Take full control of how you collect data via JS or POST. Security by design.</p>
-                        </div>
-                    </Col>
-                    
-                </Row>
-            </Container>
-        )
-    } 
-
     return(
         <div className='home-container w-100 min-h-screen'>
             <Header/>  
